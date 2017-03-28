@@ -1,0 +1,23 @@
+- title: 神经运动控制的建模与仿真研究
+  url: /spinal-cord-models
+  type: NMES
+  image: spinal_cord_models.png
+  content:
+
+- title: 神经调节治疗帕金森病、脑卒中和脊髓损伤
+  url: /parkinson
+  type: NMES
+  image: fes_parkinson.png
+  content:
+
+- title: 神经拟态 (Neuromorphic) 高速神经元仿真
+  url: /neuromorphic
+  type: prosthetic
+  image: niu_hardware.png
+  content:
+
+- title: 脑卒中临床康复的应用研究
+  url: /shock
+  type: prosthetic
+  image: niu_nmes_stroke.jpeg
+  content:

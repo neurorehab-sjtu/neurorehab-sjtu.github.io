@@ -1,0 +1,7 @@
+---
+layout: detail
+title: 神经调节治疗帕金森病、脑卒中和脊髓损伤
+permalink: /research/parkinson
+type: research
+---
+![](/images/fes_parkinson.png)
