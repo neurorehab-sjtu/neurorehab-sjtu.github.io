@@ -1,4 +1,5 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
+
+
   <head>
     <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=dpIipiuqomSGatmZH5eAa1LcKpYuGoOI"></script>
   </head>
@@ -17,7 +18,7 @@
     }
     function createMap(){
       map = new BMap.Map("map");
-      map.centerAndZoom(new BMap.Point(121.440227,31.204369),18);
+      map.centerAndZoom(new BMap.Point(121.440227,31.204662),18);
     }
     function setMapEvent(){
       map.enableScrollWheelZoom();
@@ -32,7 +33,7 @@
     }
     function addMapOverlay(){
       var markers = [
-        {content:"",title:"Med-X研究所",imageOffset: {width:0,height:3},position:{lat:31.204361,lng:121.440236}}
+        {content:"上海市徐汇区华山路1804号，上海交通大学（徐汇校区）",title:"MED-X研究所",imageOffset: {width:-46,height:-21},position:{lat:31.204369,lng:121.440236}}
       ];
       for(var index = 0; index < markers.length; index++ ){
         var point = new BMap.Point(markers[index].position.lng,markers[index].position.lat);
@@ -58,10 +59,7 @@
       map.addControl(scaleControl);
       var navControl = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:1});
       map.addControl(navControl);
-      var overviewControl = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:false});
-      map.addControl(overviewControl);
     }
     var map;
       initMap();
   </script>
-</html>
