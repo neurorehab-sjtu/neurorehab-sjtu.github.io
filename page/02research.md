@@ -14,11 +14,9 @@ type: page
 
 {% for post in site.data.research %}
 {% if post.type == 'NMES' %}
-  <h4>
-    <a class="post-link" href="{{site.url}}/research{{post.url}}">{{ post.title }}</a>
-  </h4>
+#### [{{post.title}}]({{site.url}}/research{{post.url}})
   <br>
-  ![](/images/{{post.image}})
+![](/images/{{post.image}})
   {{post.content}}
 
 ---
@@ -31,9 +29,7 @@ type: page
 
 {% for post in site.data.research %}
 {% if post.type == 'prosthetic' %}
-  <h4>
-    <a class="post-link" href="{{site.url}}/research{{post.url}}">{{ post.title }}</a>
-  </h4>
+#### [{{post.title}}]({{site.url}}/research{{post.url}})
   <br>
   ![](/images/{{post.image}})
   {{post.content}}

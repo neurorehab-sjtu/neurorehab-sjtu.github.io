@@ -6,15 +6,15 @@
         <button id="headerMenu" class="menu"><i class="fa fa-bars"></i></button>
         <nav id="headerNav">
             <ul>
-                <!--<li>
+                <li>
                     {% if page.url == '/' %}
                     <a class="active" href="{{site.baseurl}}/">
                         {% else %}
                     <a href="{{site.baseurl}}/">
                     {% endif %}
-                        <i class="fa fa-home"></i>Home
+                        <i class="fa fa-home"></i>首页
                     </a>
-                </li>-->
+                </li>
 
                 {% for my_page in site.pages %}
                     {% if my_page.type == 'page' %}
