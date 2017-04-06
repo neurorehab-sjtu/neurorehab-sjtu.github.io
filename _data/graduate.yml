@@ -1,6 +1,6 @@
 - name: 何鑫
   short: he_xin
-  title: 2015级博士
+  title: 2015级博士毕业生
   pic: avatar_hexin.jpg
   description: 现任太平人寿保险有限公司客户价值挖掘和产品推荐技术负责人
 - name: 石萍
@@ -24,3 +24,9 @@
   title: 实习
   pic: avatar_yangcai.jpg
   description: 大创，网页维护
+- name: 庄橙
+  short: zhuang_cheng
+  email: 
+  title: 2017届硕士
+  pic: avatar_zhuangcheng.jpg
+  description: 现任上海联影医疗科技有限公司临床应用专员
