@@ -1,0 +1,20 @@
+- name: 李斯
+  short: li_si
+  title: 2012级博士生
+  pic: avatar_lisi.jpg
+  description: 
+- name: 胡子翔
+  short: hu_zixiang
+  title: 2014级博士生
+  pic: avatar_huzixiang.jpg
+  description: 
+- name: 刘小东
+  short: liu_xiaodong
+  title: 2016级硕士生
+  pic: avatar_liuxiaodong.jpg
+  description: 
+- name: 郝华青
+  short: hao_huaqing
+  title: 2016级硕士生
+  pic: avatar_haohuaqing.jpg
+  description: 
