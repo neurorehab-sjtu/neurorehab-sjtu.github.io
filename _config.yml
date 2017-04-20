@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: SJTU神经工程康复实验室
+title: SJTU神经康复工程实验室
 brief-intro:
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://neurorehab-sjtu.github.io" # the base hostname & protocol for your site
@@ -23,7 +23,7 @@ zhihu_username:
 linkedIn_username:
 dribbble_username:
 
-description_footer: 神经工程康复实验室
+description_footer: SJTU神经工程康复实验室
 
 # comments
 # two ways to comment, only choose one, and use your own short name
