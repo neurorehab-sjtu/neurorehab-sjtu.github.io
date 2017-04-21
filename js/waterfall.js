@@ -7,39 +7,27 @@
  * @param  {[type]} function( [description]
  * @return {[type]}           [description]
  */
-(function() {
+ (function() {
 
-    /**
-     * 内容JSON
-     */
-    var demoContent = [
-        {
-            demo_link: '#',
-            img_link: '/images/spinal_cord_models.png',
-            //code_link: 'https://baidu.com',
-            title: '神经运动控制的建模与仿真研究',
-            //core_tech: '',
-            //description: ''
-        },{
-        demo_link: '/research/parkinson',
-        img_link: '/images/fes_parkinson.png',
-        //code_link: 'https://github.com/Gaohaoyang/test/tree/master/headerTransition',
-        title: '神经调节治疗帕金森病、脑卒中和脊髓损伤',
-        //core_tech: 'jQuery BootStrap CSS3',
-        //description: '花费不到半小时帮师兄做了一个简单的 CSS3 动画效果，当页面滚动到指定距离时，header 区的背景色由透明变为蓝色。仿照了网站 <a href ="https://quorrajs.org/">https://quorrajs.org/</a> 的 Header 区动画效果。'
-    },{
-      demo_link: '#',
-      img_link: '/images/niu_hardware.png',
-      title: '神经拟态 (Neuromorphic) 高速神经元仿真',
-    },{
-      demo_link: '#',
-      img_link: '/images/niu_nmes_stroke.jpeg',
-      title: '脑卒中临床康复的应用研究',
-    }];
+     /**
+      * 内容JSON
+      */
+     var demoContent = [
+     {% for member in site.data.graduate %}
+         {
+             demo_link: '#',
+             img_link: '/images/{{member.pic}}',
+             //code_link: 'https://baidu.com',
+             title: '{{member.name}}',
+             //core_tech: '',
+             //description: ''
+         },
+         {% endfor %}
+         ];
 
-    contentInit(demoContent) //内容初始化
-    waitImgsLoad() //等待图片加载，并执行布局初始化
-}());
+     contentInit(demoContent) //内容初始化
+     waitImgsLoad() //等待图片加载，并执行布局初始化
+ }());
 
 
 
