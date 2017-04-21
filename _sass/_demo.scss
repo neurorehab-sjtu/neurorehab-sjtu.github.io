@@ -18,9 +18,9 @@
                 clear: both;
             }
             .grid-item {
-                width: 250px;
+                width: 180px;
                 background-color: #fff;
-                margin-bottom: 20px;
+                margin-bottom: 10px;
                 padding-bottom: 10px;
                 float: left;
                 transition: 0.5s ease;
@@ -53,6 +53,12 @@
                     margin: 0;
                     padding: 0 8px;
                     font-size: 14px;
+                }
+                h6{
+                  margin: 0;
+                  padding: 0 8px;
+                  font-size: 14px;
+                  color: #9e9d9d;
                 }
             }
         }

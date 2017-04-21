@@ -868,9 +868,10 @@
   -o-transition: 0.3s;
   transition: 0.3s;
   top: 2px;
+  min-height: 600px;
 }
 #biyekuang .item-grid .image {
-  height: 400px;
+  min-height: 400px;
   overflow: hidden;
   margin-bottom: 0px;
   background-size: cover;
