@@ -28,3 +28,13 @@
   media:
     - name: "PDF"
       url:  
+
+- title:   "Editorial – Neural and Computational Modeling of Movement Control"
+  author:  "N. Lan, V.C.K. Cheung and S. C. Gandevia"
+  journal: "Front. Comput. Neurosci"
+  note:    "10:90"
+  year:    "2016"
+  doi:     "http://dx.doi.org"
+  media:
+    - name: "PDF"
+      url: 
