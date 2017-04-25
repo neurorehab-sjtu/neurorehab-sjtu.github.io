@@ -2,7 +2,7 @@
 layout: page_no_side
 title: 联系方式
 permalink: /contact/
-icon: heart
+icon: phone
 type: page
 ---
 
