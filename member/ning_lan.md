@@ -4,12 +4,14 @@ title: 蓝宁
 type: member
 permalink: /members/lan_ning
 ---
-###### Email: <a href="ninglan@sjtu.edu.cn">ninglan@sjtu.edu.cn</a>
 
-{% include image.html url="/images/avatar_ninglan.png" caption="" max_width="30%" align="left" %}
+* content
+{:toc}
+
+Email: <a href="ninglan@sjtu.edu.cn">ninglan@sjtu.edu.cn</a>
+{% include image.html url="/images/avatar_ninglan.png" caption="" width="15%" align="left" %}
 
 蓝宁教授，博士生导师，康复工程研究所常务副所长。1989 年获美国Case Western Reserve University 生物医学工程专业博士学位。此后在美国University of Kentucky, 以及 University of Southern California 等大学工作，历任副研究员、助理教授、研究副教授、副教授等职。近五年内的学术成果包括提出了创新的神经运动控制的“α-γ”模型；扩展了多尺度，多层次系统建模与仿真在神经运动控制机理研究中的应用；开发了基于肢域网的分布式电刺激系统，提出了基于仿生控制原理的功能性电刺激上肢瘫痪运动恢复的智能控制方法等；测评了前臂截肢残端的诱发指感的现象，并应用于建立非侵入式感知反馈的替代神经通路；提出了脊髓固有神经元处理和转换下行运动控制信号的模型，及其在帕金森震颤信号传递中的关键作用的假设；主持了国家自然科学基金，科技部973课题，985III期转化医学，医工交叉重点项目，等多项研究项目。发表刊物，会议文章和专辑章节共100余篇；获1995年美国旧金山李氏基金会 Heritage Prize for Excellence in Creative Activities in Biomedical Engineering；2014年被评为中国高被引学者；任 Frontiers of Computational Neuroscience 客座副主编，编辑了 Neural and Computational Modeling of Movement Control 的研究主题论文集。
-
 #### 主要研究领域
 1. 神经肌骨系统建模和运动神经控制
 2. 神经康复工程和功能电刺激

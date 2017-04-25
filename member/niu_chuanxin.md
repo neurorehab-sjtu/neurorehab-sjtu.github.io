@@ -4,13 +4,16 @@ title: 牛传欣
 type: member
 permalink: /members/niu_chuanxin
 ---
-###### Email: <a href="minos.niu@gmail.com">minos.niu@gmail.com</a>
+* content
+{:toc}
 
-{% include image.html url="/images/avatar_niuchuanxin.jpg" caption="" max_width="30%" align="left"%}
+Email: <a href="minos.niu@gmail.com">minos.niu@gmail.com</a>
+{% include image.html url="/images/avatar_niuchuanxin.jpg" caption="" width="15%" align="left" %}
 
 
 
-牛传欣副研究员，博士，上海市“青年东方学者”，瑞金医院康复医学科康复工程实验室负责人。2010年获美国伊利诺伊大学生物医学工程专业神经康复方向博士学位，2010年至2014年于美国南加州大学从事博士后研究，2015年始任职于上海交通大学附属瑞金医院。临床研究成果获邀在美国神经康复医师学会(ASNR)演讲报告，工程成果发表于机器学习领域知名会议NIPS，发表SCI文章10余篇。主要研究方向：感觉运动控制在康复临床中的恢复机理、神经拟态芯片在临床中的应用、运动障碍及运动控制的数学模型、肌电控制下的康复仪器开发。<br><br><br>
+牛传欣副研究员，博士，上海市“青年东方学者”，瑞金医院康复医学科康复工程实验室负责人。2010年获美国伊利诺伊大学生物医学工程专业神经康复方向博士学位，2010年至2014年于美国南加州大学从事博士后研究，2015年始任职于上海交通大学附属瑞金医院。临床研究成果获邀在美国神经康复医师学会(ASNR)演讲报告，工程成果发表于机器学习领域知名会议NIPS，发表SCI文章10余篇。主要研究方向：感觉运动控制在康复临床中的恢复机理、神经拟态芯片在临床中的应用、运动障碍及运动控制的数学模型、肌电控制下的康复仪器开发。
+
 
 #### 主要研究领域
 1. 人体神经运动控制
