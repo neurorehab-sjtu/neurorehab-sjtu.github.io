@@ -1,45 +1,103 @@
 ---
-layout: page
+layout: research
 title: 研究方向
 permalink: /research/
 icon: th-list
 type: page
 ---
-* content
-{:toc}
+<div class="grid">
+</div>
 
-### 神经肌肉电刺激 (NMES) 系统研发
+<script src="{{ " /js/masonry.pkgd.min.js " | prepend: site.baseurl }}" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">
+/* jshint asi:true */
+//先等图片都加载完成
+//再执行布局函数
 
----
+/**
+ * 执行主函数
+ * @param  {[type]} function( [description]
+ * @return {[type]}           [description]
+ */
+(function() {
 
-{% for post in site.data.research %}
-{% if post.type == 'NMES' %}
-#### [{{post.title}}]({{site.url}}/research{{post.url}})
-  <br>
-![](/images/{{post.image}})
-  {{post.content}}
+  /**
+     * 内容JSON
+     */
+  var demoContent = [
+  {% for research in site.data.research %}
+      {
+          demo_link: '{{research.url}}',
+          img_link: '/images/{{research.image}}',
+          //code_link: '',
+          title: '{{research.title}}',
+          core_tech: '{{research.tech}}',
+          description: '{{research.content}}'
+      },
+      {% endfor %}
+  ];
 
----
-  {% endif %}
-{% endfor %}
+  contentInit(demoContent) //内容初始化
+  waitImgsLoad() //等待图片加载，并执行布局初始化
+}());
 
-### 神经假肢的感知功能重建
+/**
+ * 内容初始化
+ * @return {[type]} [description]
+ */
+function contentInit(content) {
+  var htmlStr = ''
+  for (var i = 0; i < content.length; i++) {
+    htmlStr += '<div class="grid-item">' + '   <a class="a-img" href="' + content[i].demo_link + '">' + '       <img src="' + content[i].img_link + '">' + '   </a>' + '   <h3 class="demo-title">' + '       <a href="' + content[i].demo_link + '">' + content[i].title + '</a>' + '   </h3>' + '   <h6>' + content[i].core_tech + '</h6>' + '   <p>' + content[i].description +  '   </p>' + '</div>'
+  }
+  var grid = document.querySelector('.grid')
+  grid.insertAdjacentHTML('afterbegin', htmlStr)
+}
 
----
+/**
+ * 等待图片加载
+ * @return {[type]} [description]
+ */
+function waitImgsLoad() {
+  var imgs = document.querySelectorAll('.grid img')
+  var totalImgs = imgs.length
+  var count = 0
+  //console.log(imgs)
+  for (var i = 0; i < totalImgs; i++) {
+    if (imgs[i].complete) {
+      //console.log('complete');
+      count++
+    } else {
+      imgs[i].onload = function() {
+        // alert('onload')
+        count++
+        //console.log('onload' + count)
+        if (count == totalImgs) {
+          //console.log('onload---bbbbbbbb')
+          initGrid()
+        }
+      }
+    }
+  }
+  if (count == totalImgs) {
+    //console.log('---bbbbbbbb')
+    initGrid()
+  }
+}
 
-{% for post in site.data.research %}
-{% if post.type == 'prosthetic' %}
-#### [{{post.title}}]({{site.url}}/research{{post.url}})
-  <br>
-  ![](/images/{{post.image}})
-  {{post.content}}
+/**
+ * 初始化栅格布局
+ * @return {[type]} [description]
+ */
 
----
-  {% endif %}
-{% endfor %}
+function initGrid() {
+  var msnry = new Masonry('.grid', {
+    // options
+    itemSelector: '.grid-item',
+    columnWidth: 250,
+    isFitWidth: true,
+    gutter: 20
+  })
+}
 
-
-
-
-<!-- <script src="{{ "/js/scroll.min.js " | prepend: site.baseurl }}" charset="utf-8"></script> -->
-<!-- <script src="{{ "/js/pageContent.js " | prepend: site.baseurl }}" charset="utf-8"></script> -->
+</script>

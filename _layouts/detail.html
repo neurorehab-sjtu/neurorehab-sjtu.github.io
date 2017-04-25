@@ -13,9 +13,11 @@ layout: default
         </article>
         <hr>
 
-<!--       <h2 id="comments">Comments</h2>
 
--->
+    <h2 id="comments">评论</h2>
+
+    {% include comments.html %}
+
 
     </div>
     <button class="anchor"><i class="fa fa-anchor"></i></button>
@@ -23,7 +25,14 @@ layout: default
         <div class="wrap">
 
             <!-- Content -->
-
+            <div class="side content">
+                  <div>
+                      目录
+                  </div>
+                  <ul id="content-side" class="content-ul">
+                      <li><a href="#comments">评论</a></li>
+                  </ul>
+              </div>
             <!--其他div框放到这里-->
              <!--<div class="side">bbbb</div>-->
         </div>
