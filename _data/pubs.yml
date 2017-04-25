@@ -38,3 +38,93 @@
   media:
     - name: "PDF"
       url: 
+
+- title:   "Contribution of Inter-Muscular Synchronization in the Modulation of Tremor Intensity in Parkinson’s Disease"
+  author:  "He X,Hao MZ, Wei M, Xiao Q, and Lan, N"
+  journal: "Journal of Neuroengineering and Rehabilitation"
+  note:    "12"
+  year:    "2015"
+  doi:     "http://dx.doi.org"
+  media:
+    - name: "PDF"
+      url: 
+
+- title:   "Characterization of Evoked Tactile Sensation in Forearm Amputees with Transcutaneous Electrical Nerve Stimulation"
+  author:  "Guohong Chai, Xiaohong Sui, Si Li, Longwen He, and Ning Lan"
+  journal: "Journal of Neural Engineering"
+  note:    "12(6): 066002"
+  year:    "2015"
+  doi:     "http://dx.doi.org"
+  media:
+    - name: "PDF"
+      url: 
+
+- title:   "Coordinated Alpha and Gamma Control of Muscles and Spindles in Movement and Posture"
+  author:  "Li S ,Zhuang C , Hao MZ , He X , Marquez JC , Niu CM , and Lan N"
+  journal: "Frontiers in Computational Neuroscience"
+  note:    "9"
+  year:    "2015"
+  doi:     "http://dx.doi.org"
+  media:
+    - name: "PDF"
+      url: 
+
+- title:   "Finite Element Modeling of Cutaneous Electrical Stimulation for Sensory Feedback"
+  author:  "S. Li*, G.H. Chai*, X.H. Sui, N. Lan"
+  journal: "Chinese Journal of Biomedical Engineering (English Edition)"
+  note:    "23 (4)"
+  year:    "2014"
+  doi:     "http://dx.doi.org"
+  media:
+    - name: "PDF"
+      url: 
+
+- title:   "Design and Implementation of a Wearable Body Area Sensor Network for Distributed FES System"
+  author:  "Y.J. Xie*, X.X. Liu*, H.E. Qu* and N. Lan"
+  journal: "Chinese Journal of Biomedical Engineering (English Edition)"
+  note:    "23 (4)"
+  year:    "2014"
+  doi:     "http://dx.doi.org"
+  media:
+    - name: "PDF"
+      url:
+
+- title:   "Review on Tactile Sensory Feedback of Prosthetic Hands for the Upper-Limb Amputees by Sensory Afferent Stimulation"
+  author:  "G.H. Chai*, X.X. Sui, P. Li，X.X. Liu*, N. Lan"
+  journal: "Journal of Shanghai Jiaotong University (Science)"
+  note:    "10.1007/s12204 -009-0501-3"
+  year:    "2014"
+  doi:     "http://dx.doi.org"
+  media:
+    - name: "PDF"
+      url:
+
+- title:   "Effects of Acute Sacral Neuromodulation on Bladder Reflex in Complete Spinal Cord Injury Rats"
+  author:  "P. Shi*, X.Y. Zhao*, and J.W. Wang and N. Lan"
+  journal: "Neuromodulation: Technology at the Neural Interface"
+  note:    "16:583-589"
+  year:    "2013"
+  doi:     "http://dx.doi.org"
+  media:
+    - name: "PDF"
+      url:
+
+- title:   "Corticomuscular Transmission of Tremor Signals by Propriospinal Neurons in Parkinson’s Disease"
+  author:  "M.Z. Hao*, X. He*, Q. Xiao, B. Alstermark and N. Lan"
+  journal: "PLOS ONE"
+  note:    "8(11)"
+  year:    "2013"
+  doi:     "http://dx.doi.org"
+  media:
+    - name: "PDF"
+      url:
+
+- title:   "Evaluation of Feedforward and Feedback Contributions to Stiffness and Variability in Multi-Joint Arm Control"
+  author:  "X He*, Y.F. Du* and N Lan"
+  journal: "IEEE Trans. on Neural Systems and Rehabilitation Engineering"
+  note:    "21(4):634-647"
+  year:    "2013"
+  doi:     "http://dx.doi.org"
+  media:
+    - name: "PDF"
+      url:
