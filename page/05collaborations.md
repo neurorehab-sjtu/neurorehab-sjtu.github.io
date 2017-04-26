@@ -2,7 +2,7 @@
 layout: page
 title: 科研合作
 permalink: /collaborations/
-icon: window-restore
+icon: handshake-o
 type: page
 ---
 
