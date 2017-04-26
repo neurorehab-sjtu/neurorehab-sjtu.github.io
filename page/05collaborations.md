@@ -15,7 +15,7 @@ type: page
 <div class="captioned-img alignleft">
     <a href="/images/{{obj.image}}">
 
-    <img src="/images/{{obj.image}}" height="120" style="float:left;margin:0px 10px 0 0;" />
+    <img src="/images/{{obj.image}}" height="180" style="float:left;margin:0px 10px 0 0;" />
     </a>
 </div>
 {{obj.description}}
