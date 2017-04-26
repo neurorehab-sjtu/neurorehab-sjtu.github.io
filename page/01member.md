@@ -43,17 +43,19 @@ type: page
 {% endfor %}
 
 
-### 往届毕业生
-
----
-<div class="grid">
-</div>
 
 ### 在读研究生
 
 ---
 <div class="grid1">
 </div>
+
+### 往届毕业生
+
+---
+<div class="grid">
+</div>
+
 
 <script src="{{ " /js/masonry.pkgd.min.js " | prepend: site.baseurl }}" charset="utf-8"></script>
 <script type="text/javascript" charset="utf-8">
