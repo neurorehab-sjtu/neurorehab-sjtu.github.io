@@ -13,7 +13,7 @@ type: page
 ---
 
 {% for member in site.data.faculty_core %}
-* [{{member.name}}](/members/{{member.short}})，{{member.title}}，E-mail: <a href="mailto:{{member.email}}">{{membLr.email}}</a>
+* [{{member.name}}](/members/{{member.short}})，{{member.title}}，E-mail: <a href="mailto:{{member.email}}">{{member.email}}</a>
 <div class="captioned-img alignleft">
     <a href="/images/{{member.pic}}">
 
