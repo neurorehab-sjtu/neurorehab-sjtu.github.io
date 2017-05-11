@@ -43,11 +43,19 @@ type: page
 {% endfor %}
 
 
+
+### 在读研究生
+
+---
+<div class="grid1">
+</div>
+
 ### 往届毕业生
 
 ---
 <div class="grid">
 </div>
+
 
 <script src="{{ " /js/masonry.pkgd.min.js " | prepend: site.baseurl }}" charset="utf-8"></script>
 <script type="text/javascript" charset="utf-8">
@@ -77,8 +85,21 @@ type: page
       },
       {% endfor %}
   ];
+  var demoContent1 = [
+  {% for member in site.data.student %}
+      {
+          demo_link: '{{member.short}}',
+          img_link: '/images/{{member.pic}}',
+          //code_link: '',
+          title: '{{member.name}}',
+          core_tech: '{{member.title}}',
+          description: '{{member.description}}'
+      },
+      {% endfor %}
+  ];
 
-  contentInit(demoContent) //内容初始化
+  contentInit(demoContent,'.grid') //内容初始化
+  contentInit(demoContent1,'.grid1')
   waitImgsLoad() //等待图片加载，并执行布局初始化
 }());
 
@@ -86,28 +107,12 @@ type: page
  * 内容初始化
  * @return {[type]} [description]
  */
-function contentInit(content) {
-  // var htmlArr = [];
-  // for (var i = 0; i < content.length; i++) {
-  //     htmlArr.push('<div class="grid-item">')
-  //     htmlArr.push('<a class="a-img" href="'+content[i].demo_link+'">')
-  //     htmlArr.push('<img src="'+content[i].img_link+'">')
-  //     htmlArr.push('</a>')
-  //     htmlArr.push('<h3 class="demo-title">')
-  //     htmlArr.push('<a href="'+content[i].demo_link+'">'+content[i].title+'</a>')
-  //     htmlArr.push('</h3>')
-  //     htmlArr.push('<p>主要技术：'+content[i].core_tech+'</p>')
-  //     htmlArr.push('<p>'+content[i].description)
-  //     htmlArr.push('<a href="'+content[i].code_link+'">源代码 <i class="fa fa-code" aria-hidden="true"></i></a>')
-  //     htmlArr.push('</p>')
-  //     htmlArr.push('</div>')
-  // }
-  // var htmlStr = htmlArr.join('')
+function contentInit(content, grid) {
   var htmlStr = ''
   for (var i = 0; i < content.length; i++) {
     htmlStr += '<div class="grid-item">' + '   <a class="a-img" href="' + content[i].demo_link + '">' + '       <img src="' + content[i].img_link + '">' + '   </a>' + '   <h3 class="demo-title">' + '       <a href="' + content[i].demo_link + '">' + content[i].title + '</a>' + '   </h3>' + '   <h6>' + content[i].core_tech + '</h6>' + '   <p>' + content[i].description +  '   </p>' + '</div>'
   }
-  var grid = document.querySelector('.grid')
+  var grid = document.querySelector(grid)
   grid.insertAdjacentHTML('afterbegin', htmlStr)
 }
 
@@ -146,11 +151,19 @@ function waitImgsLoad() {
  * 初始化栅格布局
  * @return {[type]} [description]
  */
+
 function initGrid() {
   var msnry = new Masonry('.grid', {
     // options
     itemSelector: '.grid-item',
-    columnWidth: 80,
+    columnWidth: 180,
+    isFitWidth: true,
+    gutter: 20
+  })
+  var msnry1 = new Masonry('.grid1', {
+    // options
+    itemSelector: '.grid-item',
+    columnWidth: 180,
     isFitWidth: true,
     gutter: 20
   })
