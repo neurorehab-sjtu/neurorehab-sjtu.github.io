@@ -18,18 +18,17 @@
   title: 2015级博士毕业生
   pic: avatar_hexin.jpg
   description: 现任太平人寿保险有限公司客户价值挖掘和产品推荐技术负责人
+- name: 曲洪恩
+  short: qu_hongen
+  title: 2015级博士毕业生
+  pic: avatar_quhongen.jpg
+  description: 现任亿慈（上海）医疗科技有限公司总经理
 - name: 刘小旋
   short: liu_xiaoxuan
   email:
   title: 2016届硕士
   pic: avatar_liuxiaoxuan.jpg
   description: 现任思科系统（中国）研发有限公司DOCSIS协议开发技术负责人
-- name: 杨采
-  short: yang_cai
-  email: yc631207248@sjtu.edu.cn
-  title: 实习
-  pic: avatar_yangcai.jpg
-  description: 大创，网页维护
 - name: 庄橙
   short: zhuang_cheng
   email:
@@ -42,3 +41,9 @@
   title: 2017届硕士
   pic: avatar_xufuliang.jpg
   description: 现任罗克韦尔自动化有限公司助理工程师
+- name: 杨采
+  short: yang_cai
+  email: yc631207248@sjtu.edu.cn
+  title: 实习
+  pic: avatar_yangcai.jpg
+  description: 大创，网页维护
