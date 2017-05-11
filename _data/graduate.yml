@@ -1,8 +1,3 @@
-- name: 何鑫
-  short: he_xin
-  title: 2015级博士毕业生
-  pic: avatar_hexin.jpg
-  description: 现任太平人寿保险有限公司客户价值挖掘和产品推荐技术负责人
 - name: 石萍
   short: shi_ping
   title: 博士后，2014年出站
@@ -10,7 +5,7 @@
   description: 现任上海理工大学康复工程与技术研究所副教授
 - name: 方娟
   short: fang_juan
-  title: 2013级博士
+  title: 博士后，2015年出站
   pic: avatar_fangjuan.jpg
   description: 现任江南大学机械工程学院副教授
 - name: Juan Carlos Márquez Ruiz
@@ -18,6 +13,16 @@
   title: 博士后，2016年出站
   pic: avatar_Carlos.jpg
   description: 瑞典KTH
+- name: 何鑫
+  short: he_xin
+  title: 2015级博士毕业生
+  pic: avatar_hexin.jpg
+  description: 现任太平人寿保险有限公司客户价值挖掘和产品推荐技术负责人
+- name: 曲洪恩
+  short: qu_hongen
+  title: 2015级博士毕业生
+  pic: avatar_quhongen.jpg
+  description: 现任亿慈（上海）医疗科技有限公司总经理
 - name: 刘小旋
   short: liu_xiaoxuan
   email:
@@ -36,3 +41,9 @@
   title: 2017届硕士
   pic: avatar_xufuliang.jpg
   description: 现任罗克韦尔自动化有限公司助理工程师
+- name: 杨采
+  short: yang_cai
+  email: yc631207248@sjtu.edu.cn
+  title: 实习
+  pic: avatar_yangcai.jpg
+  description: 大创，网页维护
