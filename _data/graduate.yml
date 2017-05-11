@@ -15,14 +15,29 @@
   description: 瑞典KTH
 - name: 何鑫
   short: he_xin
-  title: 2015级博士毕业生
+  title: 2015届博士毕业生
   pic: avatar_hexin.jpg
   description: 现任太平人寿保险有限公司客户价值挖掘和产品推荐技术负责人
 - name: 曲洪恩
   short: qu_hongen
-  title: 2015级博士毕业生
+  title: 2015届博士毕业生
   pic: avatar_quhongen.jpg
   description: 现任亿慈（上海）医疗科技有限公司总经理
+- name: 赵雪燕
+  short: zhao_xueyan
+  title: 2012届硕士生
+  pic: avatar_zhaoxueyan.jpg
+  description: 
+- name: 杜雨繁
+  short: du_yufan
+  title: 2012届硕士生
+  pic: avatar_duyufan.jpg
+  description: 
+- name: 谢永吉
+  short: xie_yongji
+  title: 2014届硕士生
+  pic: avatar_xieyongji.jpg
+  description: 
 - name: 刘小旋
   short: liu_xiaoxuan
   email:
