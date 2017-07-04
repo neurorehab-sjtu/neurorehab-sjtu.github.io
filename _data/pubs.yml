@@ -1,26 +1,25 @@
-- title:   "Emulated Muscle Spindle and Spiking Afferents Validates VLSI Neuromorphic Hardware as a Testbed for Sensorimotor Function and Disease"
-  author:  "Niu, C. M., Nandyala, S. K., and Sanger, T. D."
-  journal: "Front. Comput. Neurosci."
-  note:    "8, 141"
-  year:    "2014"
-  url:     "http://publish-more-stuff.org"
-  doi:     "http://dx.doi.org/10.3389/fncom.2014.00141"
+- title:   "Evaluation of Functional Correlation of Task-Specific Muscle Synergies with Motor Performance in Patients post Stroke"
+  author:  "Si Li, Cheng Zhuang, Chuanxin M. Niu, Yong  Bao, Qing Xie  and Ning Lan"
+  journal: "Frontiers in Neurology"
+  note:    "Accepted"
+  year:    "2017"
+  doi:     "10.3389/fneur.2017.00337"
   media:
     - name: "PDF"
-      url:  "/files/Niu et al_2014_Emulated Muscle Spindle and Spiking Afferents Validates VLSI Neuromorphic.pdf"
+      url:  
 
-- title:   "Vowel Generation for Children with Cerebral Palsy using Myocontrol of a Speech Synthesizer"
-  author:  "Niu, C. M., Lee, K., Houde, J. F., and Sanger, T. D."
-  journal: "Frontiers in Human Neuroscience"
-  note:    "8, 1077"
-  year:    "2014"
-  doi:     "http://dx.doi.org"
+- title:   "Inhibition of Parkinsonian Tremor with Cutaneous Afferent Evoked by Transcutaneous Electrical Nerve Stimulation"
+  author:  "Man-Zhao Hao,Shao-Qin Xu, Zi-Xiang Hu,Fu-Liang Xu, Chuanxin M. Niu, Qin Xiao and Ning Lan"
+  journal: "Journal of Neuroengineering and Rehabilitation"
+  note:    "Accepted"
+  year:    "2017"
+  doi:     ""
   media:
     - name: "PDF"
-      url:  "/files/Niu et al_2014_Vowel Generation for Children with Cerebral Palsy using Myocontrol of a Speech.pdf"
+      url:  
 
 - title:   "Development of A Network-Based Multi-Channel NMES System for Stroke Rehabilitation"
-  author:  "H.E. Qu*, Y.J. Xie*, X.X. Liu*, X. He*, M.Z. Hao*, Y. Bao, Q. Xie, and N. Lan"
+  author:  "H.E. Qu, Y.J. Xie, X.X. Liu, X. He, M.Z. Hao, Y. Bao, Q. Xie, and N. Lan"
   journal: "Journal of Rehabilitation Research & Development"
   note:    "53(2):263-278"
   year:    "2016"
@@ -78,6 +77,27 @@
   media:
     - name: "PDF"
       url: 
+
+- title:   "Emulated Muscle Spindle and Spiking Afferents Validates VLSI Neuromorphic Hardware as a Testbed for Sensorimotor Function and Disease"
+  author:  "Niu, C. M., Nandyala, S. K., and Sanger, T. D."
+  journal: "Front. Comput. Neurosci."
+  note:    "8, 141"
+  year:    "2014"
+  url:     "http://publish-more-stuff.org"
+  doi:     "http://dx.doi.org/10.3389/fncom.2014.00141"
+  media:
+    - name: "PDF"
+      url:  "/files/Niu et al_2014_Emulated Muscle Spindle and Spiking Afferents Validates VLSI Neuromorphic.pdf"
+
+- title:   "Vowel Generation for Children with Cerebral Palsy using Myocontrol of a Speech Synthesizer"
+  author:  "Niu, C. M., Lee, K., Houde, J. F., and Sanger, T. D."
+  journal: "Frontiers in Human Neuroscience"
+  note:    "8, 1077"
+  year:    "2014"
+  doi:     "http://dx.doi.org"
+  media:
+    - name: "PDF"
+      url:  "/files/Niu et al_2014_Vowel Generation for Children with Cerebral Palsy using Myocontrol of a Speech.pdf"
 
 - title:   "Design and Implementation of a Wearable Body Area Sensor Network for Distributed FES System"
   author:  "Y.J. Xie*, X.X. Liu*, H.E. Qu* and N. Lan"
